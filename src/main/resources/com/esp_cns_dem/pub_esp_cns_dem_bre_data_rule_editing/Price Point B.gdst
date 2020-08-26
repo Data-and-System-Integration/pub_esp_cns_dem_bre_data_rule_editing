@@ -1,0 +1,1771 @@
+<org.drools.workbench.models.guided.dtable.shared.model.GuidedDecisionTable52>
+  <tableName>Price Point B</tableName>
+  <rowNumberCol>
+    <hideColumn>false</hideColumn>
+    <width>-1</width>
+  </rowNumberCol>
+  <descriptionCol>
+    <hideColumn>false</hideColumn>
+    <width>150</width>
+  </descriptionCol>
+  <metadataCols/>
+  <attributeCols>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+      <typedDefaultValue>
+        <valueNumeric class="int">0</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>130</width>
+      <attribute>salience</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+      <typedDefaultValue>
+        <valueString>execute_rule_</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <attribute>activation-group</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+  </attributeCols>
+  <conditionPatterns>
+    <org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
+      <factType>pub_cns_combined_flattened_bre</factType>
+      <boundName>data</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Detsrpricepa : data_npd_attr_86 equals</header>
+          <constraintValueType>3</constraintValueType>
+          <factField>data_npd_attr_86</factField>
+          <fieldType>java.math.BigDecimal</fieldType>
+          <operator>==</operator>
+        </org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
+      </conditions>
+    </org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
+  </conditionPatterns>
+  <actionCols>
+    <org.drools.workbench.models.guided.dtable.shared.model.ActionSetFieldCol52>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Detsrpricepb : Data_npd_attr_87</header>
+      <boundName>data</boundName>
+      <factField>data_npd_attr_87</factField>
+      <type>java.math.BigDecimal</type>
+      <update>false</update>
+    </org.drools.workbench.models.guided.dtable.shared.model.ActionSetFieldCol52>
+  </actionCols>
+  <imports>
+    <imports/>
+  </imports>
+  <packageName>com.esp_cns_dem.pub_esp_cns_dem_bre_data_rule_editing</packageName>
+  <tableFormat>EXTENDED_ENTRY</tableFormat>
+  <hitPolicy>NONE</hitPolicy>
+  <data>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">0</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_1_Detsrpricepa - &gt; 0 &lt;= 2</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">53</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017239</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">1</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_2_Detsrpricepa - &gt; 10 &lt;= 12</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">52</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017240</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">2</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_3_Detsrpricepa - &gt; 100 &lt;= 110</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">51</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017241</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">3</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_4_Detsrpricepa - &gt; 1000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">50</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017242</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">4</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_5_Detsrpricepa - &gt; 110 &lt;= 120</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">49</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017243</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">5</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_6_Detsrpricepa - &gt; 12 &lt;= 14</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">48</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017244</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">6</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_7_Detsrpricepa - &gt; 120 &lt;= 130</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">47</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017245</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">7</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_8_Detsrpricepa - &gt; 130 &lt;= 140</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">46</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017246</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">8</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_9_Detsrpricepa - &gt; 14 &lt;= 16</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">45</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017247</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">9</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_10_Detsrpricepa - &gt; 140 &lt;= 150</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">44</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017248</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">10</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_11_Detsrpricepa - &gt; 150 &lt;= 160</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">43</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017249</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">11</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_12_Detsrpricepa - &gt; 16 &lt;= 18</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">42</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017250</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">12</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_13_Detsrpricepa - &gt; 160 &lt;= 170</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">41</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017251</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">13</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_14_Detsrpricepa - &gt; 170 &lt;= 180</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">40</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017252</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">14</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_15_Detsrpricepa - &gt; 18 &lt;= 20</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">39</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017253</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">15</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_16_Detsrpricepa - &gt; 180 &lt;= 190</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">38</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017254</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">16</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_17_Detsrpricepa - &gt; 190 &lt;= 200</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">37</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017255</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">17</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_18_Detsrpricepa - &gt; 2 &lt;= 4</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">36</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017256</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">18</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_19_Detsrpricepa - &gt; 20 &lt;= 25</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">35</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017257</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">19</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_20_Detsrpricepa - &gt; 200 &lt;= 250</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">34</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017258</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">20</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_21_Detsrpricepa - &gt; 25 &lt;= 30</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">33</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017259</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">21</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_22_Detsrpricepa - &gt; 250 &lt;= 300</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">32</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017260</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">22</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_23_Detsrpricepa - &gt; 30 &lt;= 35</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">31</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017261</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017294</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">23</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_24_Detsrpricepa - &gt; 300 &lt;= 350</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">30</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017262</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">24</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_25_Detsrpricepa - &gt; 35 &lt;= 40</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">29</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017263</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017294</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">25</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_26_Detsrpricepa - &gt; 350 &lt;= 400</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">28</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017264</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">26</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_27_Detsrpricepa - &gt; 4 &lt;= 6</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">27</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017265</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">27</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_28_Detsrpricepa - &gt; 40 &lt;= 45</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">26</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017266</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017294</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">28</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_29_Detsrpricepa - &gt; 400 &lt;= 450</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">25</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017267</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">29</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_30_Detsrpricepa - &gt; 45 &lt;= 50</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">24</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017268</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017294</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">30</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_31_Detsrpricepa - &gt; 450 &lt;= 500</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">23</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017269</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">31</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_32_Detsrpricepa - &gt; 50 &lt;= 55</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">22</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017270</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017295</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">32</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_33_Detsrpricepa - &gt; 500 &lt;= 550</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">21</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017271</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">33</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_34_Detsrpricepa - &gt; 55 &lt;= 60</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">20</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017272</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017295</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">34</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_35_Detsrpricepa - &gt; 550 &lt;= 600</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">19</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017273</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">35</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_36_Detsrpricepa - &gt; 6 &lt;= 8</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">18</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017274</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">36</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_37_Detsrpricepa - &gt; 60 &lt;= 65</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">17</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017275</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017295</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">37</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_38_Detsrpricepa - &gt; 600 &lt;= 650</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">16</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017276</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">38</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_39_Detsrpricepa - &gt; 65 &lt;= 70</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">15</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017277</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017295</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">39</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_40_Detsrpricepa - &gt; 650 &lt;= 700</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">14</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017278</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">40</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_41_Detsrpricepa - &gt; 70 &lt;= 75</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">13</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017279</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017295</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">41</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_42_Detsrpricepa - &gt; 700 &lt;= 750</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">12</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017280</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">42</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_43_Detsrpricepa - &gt; 75 &lt;= 80</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">11</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017281</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017295</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">43</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_44_Detsrpricepa - &gt; 750 &lt;= 800</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">10</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017282</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">44</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_45_Detsrpricepa - &gt; 8 &lt;= 10</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">9</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017283</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017292</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">45</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_46_Detsrpricepa - &gt; 80 &lt;= 85</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">8</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017284</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017295</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">46</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_47_Detsrpricepa - &gt; 800 &lt;= 850</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">7</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017285</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">47</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_48_Detsrpricepa - &gt; 85 &lt;= 90</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">6</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017286</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017295</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">48</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_49_Detsrpricepa - &gt; 850 &lt;= 900</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">5</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017287</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">49</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_50_Detsrpricepa - &gt; 90 &lt;= 95</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">4</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017288</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017295</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">50</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_51_Detsrpricepa - &gt; 900 &lt;= 950</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">3</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017289</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">51</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_52_Detsrpricepa - &gt; 95 &lt;= 100</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">2</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017290</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017295</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+    <list>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">52</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>Rule_1_Price Point B_case_53_Detsrpricepa - &gt; 950 &lt;= 1000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">1</valueNumeric>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueString>execute_rule_1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017291</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1278017293</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+    </list>
+  </data>
+</org.drools.workbench.models.guided.dtable.shared.model.GuidedDecisionTable52>
