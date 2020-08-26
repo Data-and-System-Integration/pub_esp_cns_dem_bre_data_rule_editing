@@ -220,7 +220,7 @@
       <boundName>data</boundName>
       <factField>data_brand</factField>
       <type>java.math.BigDecimal</type>
-      <update>false</update>
+      <update>true</update>
     </set-field-col52>
     <set-field-col52>
       <hideColumn>false</hideColumn>
@@ -229,7 +229,7 @@
       <boundName>data</boundName>
       <factField>data_npd_attr_83</factField>
       <type>java.math.BigDecimal</type>
-      <update>false</update>
+      <update>true</update>
     </set-field-col52>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
@@ -264,7 +264,7 @@
       <boundName>data</boundName>
       <factField>data_npd_attr_85</factField>
       <type>java.math.BigDecimal</type>
-      <update>false</update>
+      <update>true</update>
     </set-field-col52>
     <set-field-col52>
       <hideColumn>false</hideColumn>
@@ -273,7 +273,7 @@
       <boundName>data</boundName>
       <factField>data_npd_attr_82</factField>
       <type>java.math.BigDecimal</type>
-      <update>false</update>
+      <update>true</update>
     </set-field-col52>
     <set-field-col52>
       <hideColumn>false</hideColumn>
@@ -282,7 +282,7 @@
       <boundName>data</boundName>
       <factField>data_npd_attr_84</factField>
       <type>java.math.BigDecimal</type>
-      <update>false</update>
+      <update>true</update>
     </set-field-col52>
   </actionCols>
   <auditLog>
